@@ -19,5 +19,10 @@ class TextAnalyzer
   end
 
   def most_used_letter
+    s1 = text.gsub(/[^a-z]/, '')
+
+    arr = sq.split('')
+    arr1 = arr.uniq
+  end
 
 end
